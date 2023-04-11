@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const tripSchema = mongoose.Schema({
-  username: {
+  name: {
     type: String,
   },
   email: {
